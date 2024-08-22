@@ -21,7 +21,10 @@ git revert 75e9de0e3370d5a40d0f5e2e79d671bb43b3f78d // zu einem früheren Zeitpu
 git revert --continue //bei einem Konflikt wird beim nächsten Commit die Wahl gestellt, ob weiter oder abbruch
 git revert --abort
 
-git --reset --hard HEAD~2 //löscht die letzten zwei Commits
+git reset --hard HEAD~2 //löscht die letzten zwei Commits
+git reset --soft HEAD~2
+ 
+ 
 
 
 
